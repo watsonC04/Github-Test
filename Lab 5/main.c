@@ -21,7 +21,7 @@ int main(void)
 	unsigned short data_sample[6];
 	unsigned char samples_saved = 1, samples_to_save = 100;
  	
-	//Configure LEDs
+	//Configuring the pretty flashing lights
     DDRD|=(1<<3);
 	DDRD|=(1<<4);
 	DDRD|=(1<<5);
